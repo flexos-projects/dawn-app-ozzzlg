@@ -1,22 +1,19 @@
 {
-  "id": null,
-  "name": "{{project_name}}",
-  "slug": "{{project_slug}}",
+  "id": "9afee830-036b-4b79-93d3-ea818587d6ae",
+  "name": "dawn-app",
+  "slug": "dawn-app",
   "description": "",
   "tagline": "",
   "tags": [],
-
   "owner": {
-    "id": null,
-    "email": null
+    "id": "U9zS290HBcTz4AG837umBdPeNfv2",
+    "email": "jos@flexgroup.dev"
   },
-
   "status": "active",
   "visibility": "private",
-
   "brand": {
-    "themeColor": "{{theme_color}}",
-    "theme": "default",
+    "themeColor": "#8b5cf6",
+    "theme": "dawn",
     "logo": null,
     "favicon": null,
     "openGraph": {
@@ -25,26 +22,22 @@
       "image": null
     }
   },
-
   "deploy": {
     "rootMode": "prototype",
     "prototypeEnabled": true,
-    "vercelDomain": null,
+    "vercelDomain": "dawn-app-ozzzlg.flexos.site",
     "customDomain": null
   },
-
   "github": {
-    "repoOwner": null,
-    "repoName": null,
+    "repoOwner": "flexos-projects",
+    "repoName": "dawn-app-ozzzlg",
     "branch": "main",
-    "url": null
+    "url": "https://github.com/flexos-projects/dawn-app-ozzzlg"
   },
-
   "vercel": {
     "projectId": null,
     "productionUrl": null
   },
-
   "techStack": {
     "framework": "nuxt4",
     "hosting": "vercel",
@@ -52,13 +45,11 @@
     "auth": "better-auth",
     "css": "open-props"
   },
-
   "settings": {
     "defaultFocusMode": true,
     "autoSave": true,
     "aiModel": "gemini-flash"
   },
-
-  "createdAt": "{{created_at}}",
-  "updatedAt": "{{created_at}}"
+  "createdAt": "2026-03-28T18:05:40.743Z",
+  "updatedAt": "2026-03-28T18:05:40.743Z"
 }
