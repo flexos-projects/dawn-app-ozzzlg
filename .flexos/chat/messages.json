@@ -284,13 +284,86 @@
         },
         {
           "type": "text",
-          "text": "voice notes, one-click approvals, confirmations, requests... wow, that's a lot of powerful interactions packed into those cards!\n---\ni'm imagining a doctor just tapping a button or speaking a quick update, and boom, it's done. very efficient.\n---\nso, for these actions, are we ",
+          "text": "voice notes, one-click approvals, confirmations, requests... wow, that's a lot of powerful interactions packed into those cards!\n---\ni'm imagining a doctor just tapping a button or speaking a quick update, and boom, it's done. very efficient.\n---\nso, for these actions, are we mostly talking about updating the *patient's status* on their card, or are there also specific *tasks within* each patient card that get approved or confirmed?\n---\nit'll help me figure out the data model for those patient cards!\n\n",
           "providerMetadata": {
             "google": {
               "thoughtSignature": "CiQBvj72+zE5Wx14YAlIbejURgTSbs1yNjHHvnQgEK6BepamghQKfAG+Pvb7jN2axUeNkZWgGu1dJl5RookCkX+Fp+G+GhwdlLkg42+RywVVmI8nycKImKobayWdCZKeiyHBQV24jm8CPDxO0QwIyGAu9K8qjUsT9Q9Ew7/4yqE5M+Uvo8/0TmyQWvsnvysZLdQjymbqjZXOMJNYGVlu4/0BQmMKlgIBvj72+1aKM5g30sZx6ME3ShI2LJ36X/AY7Zg/HGO/vb7CKzdSUTYG0QLvaMrkbnrSIls3flD8bJBi4GA5TZEJ7tMluMY3c5qBVwyNtcYP5c93xHkemZ3KjH8gdhYPGKAY3/mkCtffTFd0rCAWw5DvX034d3f7EKNl/uHL0z20+zFCcSQXso/5xua7d+xSUTFFfq8x384dkE8g4v2lHxQxNjjYc7PQ1dCI9FUuHq33GG10Sto/VUawlKJACnMt0OV07NmBzboQyzEeD+J9u6eglWAu+Q80S4sUUpTK+n/u870d36JX0JqbHCyuSwXpzb7AnXtdcrofZTnATbyBObPLZjUUdxkOlEFvCpdZmrIfHn1R6fU9owr9AQG+Pvb7Mlqb/TBeWJombPVDsQRGkK+WIbnvQnKPRPBMKgEKYA4FLRujep6bAY33JU+2autew5BPUxjQzt1f6puvbcjy+Xlpzdw1Yiys9MR2hf/5gUfhIlP4skEGAjkQXTclT0cdSN/E+/Kr8oIw71OGK51R7Opgx/6KihHeHnqs8wnEnDcEIMHO2ldhMoH2LlP/lyNwKjrUpx9Mp13cSe0cv8rm/0xt+NUFf5DdXcfnwKhWkG5XLLPOZA2DW1lxbTTZu5QHt1ZJVP3piqZUr4P2BT7z7Uzis09WT7Hocx2EQz+S5XJW3maNHjVqwO6OANUXxFHnkLGoDhm9FzoKkgEBvj72+xBVmZvzYNEeAI6txOpG8PRZXey6Ng+W7Z4ImCDIBGQ6zklxOSYsFngVNpcjAvz2gVbTufAq0FAo9n3G2vECpiB7nvvIszYwzUG3gZfnpuA0Z9yOFPa9ws4Ks7kzhBxRIrCv17ksIVTT/y86xSsFVRee47ojSwRWqGK+hgmw/09j0BCm4ax6U1whjZy0Gw=="
             }
           },
-          "state": "streaming"
+          "state": "done"
+        },
+        {
+          "type": "tool-suggest",
+          "toolCallId": "v0ds3Al0XlJmGvqK",
+          "state": "output-available",
+          "input": {
+            "suggestions": [
+              "updating patient status",
+              "approving tasks within a card",
+              "both are important"
+            ]
+          },
+          "output": {
+            "suggestions": [
+              "updating patient status",
+              "approving tasks within a card",
+              "both are important"
+            ]
+          }
+        },
+        {
+          "type": "step-start"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "type": "text",
+          "text": "both are important"
+        }
+      ],
+      "id": "g3xfrwAaLen83Na5",
+      "role": "user"
+    },
+    {
+      "id": "ut304gsSkPvlB3vM",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "step-start"
+        },
+        {
+          "type": "text",
+          "text": "got it, both are important! so patient cards will have a main status, and then individual tasks within those cards will also have their own statuses that can be approved or confirmed.\n---\nthat's a really comprehensive way to manage patient care!\n---\nnow, when it comes to those tasks *within* a patient card, are these tasks usually assigned to other team members (like nurses or assistants), or are they mostly for the doctor's own to-do list?\n\n",
+          "providerMetadata": {
+            "google": {
+              "thoughtSignature": "CiQBvj72+6i/FtpTnDQW06xG//aViwMJ7UkL7fyzehfz81S6nNwKfwG+Pvb7JWrCtmID5kBNjgvByGmD190veIwbgQeBV8Wy+Ifyg3ltQlpnPJ4LgMLKNx1GwVQO6s81RvxZqJDU+gUSFN+WWpcC3NHoLXnJ9Q+o+dxMtlJDLHWgY6DkAn5528/ogc1PfP6QT1V1/58rE2Dq3tZ1ul4AokOJ3cMvj3IKiwIBvj72+7frP/tSObEUWo8gepMANT4oVXmGePGTeBCdBysS7KCmk8WAqi+SSqBY0Xe7c7cnRj0b4JHzX1+AiXmmXzsG6ke9lrsa0ON1TqbqWmJcHpVHicDX6u8XLv4HU1Lxm6KWDk0a2Sa7wqQepJrY3Pk0O/9TSH+cwPhtaDJy+Nn4zCrN0xot6uIfmzCz/gD46SQYW3aEe+5eX9MrCzvd9+zLapAfNpWpYEA0F3/WPftWgIH4iqNGNe435kgB1NOgnN2WVVE+BV66QxA3Db0D1tRkBmu0visk+66FY1SGt/qmYCgb81hOHHGcVaWtJZjDc6Uzb3a1pf/W81leKwjtGo2ZnWvC4JH8FcgKzQEBvj72+7x5a38CVSoo//7wT+jy2PpFGUFNUpjXTa8Pr1J1c6eR01+eUpAVOEP5ThR+14rFJmBFLNCxt2xB6/SHvVZsEaiDNDkbm2mfRZVfvCdHKVH6VvXYpe3Y7CAvVCSm+Kj9e9Wrh5AA8T3ErwiursZ2ZkjBuW+DCod7zD9sCGN5U6Xle3FjzGNBNcYpzZEKaDDxDlFuS4n0yQRoIgJv1+VYHdfJWxI9jaEI9GlGJZ4HR1butxAni7woYgZjbqdjAZvqKXo/tDGiDCWq"
+            }
+          },
+          "state": "done"
+        },
+        {
+          "type": "tool-suggest",
+          "toolCallId": "YQ6ns2BPJDcuOZ8C",
+          "state": "output-available",
+          "input": {
+            "suggestions": [
+              "assigned to team members",
+              "for the doctor's own list",
+              "both, depending on the task"
+            ]
+          },
+          "output": {
+            "suggestions": [
+              "assigned to team members",
+              "for the doctor's own list",
+              "both, depending on the task"
+            ]
+          }
+        },
+        {
+          "type": "step-start"
         }
       ]
     }
@@ -309,7 +382,9 @@
     "D9UYczt3GZQXwn5q": "/.flexos/spaces/001-kickoff/space.md",
     "sNzeoZyrMLp2Ahjb": "/.flexos/spaces/001-kickoff/space.md",
     "1z0FwvIZ24YlsilH": "/.flexos/spaces/001-kickoff/space.md",
-    "OENoZpSF1AzEfjcO": "/.flexos/spaces/001-kickoff/space.md"
+    "OENoZpSF1AzEfjcO": "/.flexos/spaces/001-kickoff/space.md",
+    "g3xfrwAaLen83Na5": "/.flexos/spaces/001-kickoff/space.md",
+    "ut304gsSkPvlB3vM": "/.flexos/spaces/001-kickoff/space.md"
   },
-  "savedAt": "2026-03-30T03:47:19.019Z"
+  "savedAt": "2026-03-30T03:47:55.390Z"
 }
