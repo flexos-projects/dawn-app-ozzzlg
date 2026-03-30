@@ -1,5 +1,24 @@
 {
-  "messages": [],
-  "contextMap": {},
-  "savedAt": "2026-03-29T17:13:40.413Z"
+  "messages": [
+    {
+      "parts": [
+        {
+          "type": "text",
+          "text": "What should I work on next?"
+        }
+      ],
+      "id": "S2wt1XB9vgECUIAB",
+      "role": "user"
+    },
+    {
+      "id": "cSit28j1vkfGCTZV",
+      "role": "assistant",
+      "parts": []
+    }
+  ],
+  "contextMap": {
+    "S2wt1XB9vgECUIAB": "/.flexos/spaces/new-space-9369/space.md",
+    "cSit28j1vkfGCTZV": "/.flexos/spaces/new-space-9369/space.md"
+  },
+  "savedAt": "2026-03-30T00:09:03.666Z"
 }
