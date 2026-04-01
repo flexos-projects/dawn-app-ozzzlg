@@ -9,10 +9,60 @@
       ],
       "id": "g0O6UjejF7juRYac",
       "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "type": "text",
+          "text": "hi"
+        }
+      ],
+      "id": "Qm65cUJkY22uIvUM",
+      "role": "user"
+    },
+    {
+      "id": "lhdbFTEcdHHgNWKI",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "step-start"
+        },
+        {
+          "type": "text",
+          "text": "oh, hey there! 👋\n---\nyour project is called `dawn-app`\n---\nit's set up with a lovely theme color of `#8b5cf6` and the `dawn` theme\n---\nright now, it's a fresh canvas though! most of the core docs (vision, features, pages, etc.) are empty\n---\nthat means we have a clean slate to build something amazing!\n---\nwhat's the big idea you have for dawn-app? what's the one thing it absolutely *has* to do?",
+          "providerMetadata": {
+            "google": {
+              "thoughtSignature": "CnIBvj72+20xRfmtBihDp153MH0TOrSaXmSIXqdShecNmxtv6LE9/58ZQNTIwqnV9qBBLvwa47iJkC2KKE1O/Nv7Yb4YmH5YP8cf+aXfFTHrgwQP0wLm0dm0qmZr9YcclAAydVq1IufNHdGnxyJjJI3w6V0K/gEBvj72+5F+h8PDEVrZLd/OdDY8pqpINJD/7/Ex9i6vKh/nVQMZYxYwzqLZ3APGk6Fx7eKYTo6bFtX0H2c6ZxRX0CakTiod+W91sAYjc/+XDRjhL3F8/UgS6I0ZiQLizXliTY/Zz/cid4R1YiYQdNc2LFEFw6rhZmknSDzDelrPpTNecjqTIJ9/iRKab5bGVks6x+AdlB9YQm/hM3Thpe/AOSh9cXPBVsuvI38p7xb5HXFBaZ2n+i5InlLCvCU2fjKKzn4MCaW0yCFr2QmALceK/srCQ1GPClZjus7cDobP7RVq84e7lm6/+KBbWhuFxzaEh9wpAogQxIKnZXCH8w=="
+            }
+          },
+          "state": "done"
+        },
+        {
+          "type": "tool-suggest",
+          "toolCallId": "LuGW7TogXDvburJV",
+          "state": "output-available",
+          "input": {
+            "suggestions": [
+              "what's the vision for dawn-app?",
+              "what are the main features?",
+              "tell me about the design"
+            ]
+          },
+          "output": {
+            "suggestions": [
+              "what's the vision for dawn-app?",
+              "what are the main features?",
+              "tell me about the design"
+            ]
+          }
+        }
+      ]
     }
   ],
   "contextMap": {
-    "g0O6UjejF7juRYac": null
+    "g0O6UjejF7juRYac": null,
+    "Qm65cUJkY22uIvUM": null,
+    "lhdbFTEcdHHgNWKI": null
   },
-  "savedAt": "2026-04-01T18:39:16.507Z"
+  "savedAt": "2026-04-01T18:39:37.986Z"
 }
